@@ -130,6 +130,5 @@ dmypy.json
 
 # RemoveContainer
 .devcontainer
-data/*
 models
 predictions
