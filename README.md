@@ -18,7 +18,7 @@ https://signate.jp/competitions/104
 
 ---
 ## 事前準備
-data/original に、コンペで配布されているデータを配置する。zipファイルは展開して配置する。<br>
+data/originalディレクトリを作成し、コンペで配布されているデータを配置する。zipファイルは展開して配置する。<br>
 メモ：コンテナ作成コマンド<br>
 ```
 docker run --name hogehoge -v [ホストマシンのマウント先]:[コンテナの絶対パス] --gpus all -it pytorch/pytorch:1.7.1-cuda11.0-cudnn8-runtime /bin/bash
